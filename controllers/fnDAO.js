@@ -143,7 +143,6 @@ class reserveDAO {
     return this.run_query(this.#queries["get_viable_restaurants"], [diet_restrict], 'get_viable_restaurants')
   }
 
-  //TODO - start_time must be greater than current time
   static async post_reservation(start_time, table_ids, diner_ids) {
     logger.info('post_reservation', this.#base_meta)
     if(!args.isDate(start_time) || !args.isNumList(table_ids) || !args.isNumList(diner_ids) || start_time < new Date()) { 
