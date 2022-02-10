@@ -24,6 +24,10 @@ describe("fnDAO: post_reservation", () => {
     const result = await reserveDAO.post_reservation(time, tables, [1,2,"a"])
     expect(result).to.be.null
   })
+  it('catch_past_reservation_time', async () => {
+    const result = await reserveDAO.post_reservation(chg_hours(new Date(), -5), tables, [1,2,"a"])
+    expect(result).to.be.null
+  })
   it('make_reservation', async () => {
     reserve_id = await reserveDAO.post_reservation(time, tables, diners)
     const result = await reserveDAO.find_reservation(reserve_id)

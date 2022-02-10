@@ -146,7 +146,7 @@ class reserveDAO {
   //TODO - start_time must be greater than current time
   static async post_reservation(start_time, table_ids, diner_ids) {
     logger.info('post_reservation', this.#base_meta)
-    if(!args.isDate(start_time) || !args.isNumList(table_ids) || !args.isNumList(diner_ids)) { 
+    if(!args.isDate(start_time) || !args.isNumList(table_ids) || !args.isNumList(diner_ids) || start_time < new Date()) { 
       logger.error('ill-defined parameters', {filename: 'fnDAO.js', funcName:'post_reservation'}) 
       return null 
     }

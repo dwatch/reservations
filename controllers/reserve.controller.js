@@ -48,8 +48,8 @@ class ReserveController {
     const diners = (typeof req.body.diner_ids === 'string') ? [req.body.diner_ids] : req.body.diner_ids
     const start_time = new Date(req.body.start_time)
     const rest_id = req.body.restaurant_id
-    if (!diners || !start_time || !rest_id || 
-        !args.isNumList(diners) || !args.isDate(start_time) || !args.isNum(rest_id)) {
+    if (!diners || !start_time || !rest_id || !args.isNumList(diners) || 
+        !args.isDate(start_time) || !args.isNum(rest_id) || start_time < new Date()) {
       reserveDAO.reserve_logger.error('ill-defined parameters', meta)
       return res.json({"error":"Improper Inputs"}) 
     }

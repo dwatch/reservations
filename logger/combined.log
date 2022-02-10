@@ -291,3 +291,83 @@
 {"filename":"fnDAO.js","funcName":"post_reservation -> post_reserved_tables","level":"info","message":[],"timestamp":"2022-02-10T10:19:59.243Z"}
 {"filename":"fnDAO.js","funcName":"post_reservation -> post_party","level":"info","message":"query successful","timestamp":"2022-02-10T10:19:59.245Z"}
 {"filename":"fnDAO.js","funcName":"post_reservation -> post_party","level":"info","message":[],"timestamp":"2022-02-10T10:19:59.245Z"}
+{"filename":"fnDAO.js","level":"info","message":"post_reservation","timestamp":"2022-02-10T12:21:58.548Z"}
+{"filename":"fnDAO.js","funcName":"post_reservation","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.550Z"}
+{"filename":"fnDAO.js","level":"info","message":"post_reservation","timestamp":"2022-02-10T12:21:58.554Z"}
+{"filename":"fnDAO.js","funcName":"post_reservation","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.554Z"}
+{"filename":"fnDAO.js","level":"info","message":"post_reservation","timestamp":"2022-02-10T12:21:58.556Z"}
+{"filename":"fnDAO.js","funcName":"post_reservation","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.556Z"}
+{"filename":"fnDAO.js","level":"info","message":"post_reservation","timestamp":"2022-02-10T12:21:58.558Z"}
+{"filename":"fnDAO.js","funcName":"post_reservation","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.558Z"}
+{"filename":"fnDAO.js","level":"info","message":"post_reservation","timestamp":"2022-02-10T12:21:58.560Z"}
+{"filename":"fnDAO.js","funcName":"post_reservation -> post_reservation","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.730Z"}
+{"filename":"fnDAO.js","funcName":"post_reservation -> post_reservation","level":"info","message":[{"id":74}],"timestamp":"2022-02-10T12:21:58.730Z"}
+{"filename":"fnDAO.js","funcName":"post_reservation -> post_reserved_tables","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.737Z"}
+{"filename":"fnDAO.js","funcName":"post_reservation -> post_reserved_tables","level":"info","message":[],"timestamp":"2022-02-10T12:21:58.737Z"}
+{"filename":"fnDAO.js","funcName":"post_reservation -> post_party","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.742Z"}
+{"filename":"fnDAO.js","funcName":"post_reservation -> post_party","level":"info","message":[],"timestamp":"2022-02-10T12:21:58.742Z"}
+{"filename":"fnDAO.js","funcName":"post_reservation -> post_party","level":"info","message":"find_reservation","timestamp":"2022-02-10T12:21:58.742Z"}
+{"filename":"fnDAO.js","funcName":"find_reservation","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.759Z"}
+{"filename":"fnDAO.js","funcName":"find_reservation","level":"info","message":[{"end_time":"2022-02-11T04:30:00.000Z","id":74,"start_time":"2022-02-11T02:30:00.000Z","ts_cancelled":null,"ts_created":"2022-02-10T12:21:58.705Z"}],"timestamp":"2022-02-10T12:21:58.759Z"}
+{"filename":"fnDAO.js","funcName":"find_reservation","level":"info","message":"find_reservation","timestamp":"2022-02-10T12:21:58.761Z"}
+{"filename":"fnDAO.js","funcName":"find_reservation","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.762Z"}
+{"filename":"fnDAO.js","funcName":"find_reservation","level":"info","message":"find_reservation","timestamp":"2022-02-10T12:21:58.763Z"}
+{"filename":"fnDAO.js","funcName":"find_reservation","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.764Z"}
+{"filename":"fnDAO.js","funcName":"find_reservation","level":"info","message":[{"end_time":"2022-02-11T04:30:00.000Z","id":74,"start_time":"2022-02-11T02:30:00.000Z","ts_cancelled":null,"ts_created":"2022-02-10T12:21:58.705Z"}],"timestamp":"2022-02-10T12:21:58.764Z"}
+{"filename":"fnDAO.js","funcName":"find_reservation","level":"info","message":"get_dietary_restrictions","timestamp":"2022-02-10T12:21:58.766Z"}
+{"filename":"fnDAO.js","funcName":"get_dietary_restrictions","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.766Z"}
+{"filename":"fnDAO.js","funcName":"find_reservation","level":"info","message":"get_dietary_restrictions","timestamp":"2022-02-10T12:21:58.767Z"}
+{"filename":"fnDAO.js","funcName":"get_dietary_restrictions","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.788Z"}
+{"filename":"fnDAO.js","funcName":"get_dietary_restrictions","level":"info","message":[{"bit_or":2}],"timestamp":"2022-02-10T12:21:58.788Z"}
+{"filename":"fnDAO.js","funcName":"get_dietary_restrictions","level":"info","message":"get_dietary_restrictions","timestamp":"2022-02-10T12:21:58.789Z"}
+{"filename":"fnDAO.js","funcName":"get_dietary_restrictions","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.790Z"}
+{"filename":"fnDAO.js","funcName":"get_dietary_restrictions","level":"info","message":[{"bit_or":7}],"timestamp":"2022-02-10T12:21:58.790Z"}
+{"filename":"fnDAO.js","funcName":"get_dietary_restrictions","level":"info","message":"get_viable_restaurants","timestamp":"2022-02-10T12:21:58.792Z"}
+{"filename":"fnDAO.js","funcName":"get_viable_restaurants","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.792Z"}
+{"filename":"fnDAO.js","funcName":"get_dietary_restrictions","level":"info","message":"get_viable_restaurants","timestamp":"2022-02-10T12:21:58.793Z"}
+{"filename":"fnDAO.js","funcName":"get_viable_restaurants","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.797Z"}
+{"filename":"fnDAO.js","funcName":"get_viable_restaurants","level":"info","message":[{"diet_restrict":3,"id":2,"name":"Panaderia Rosetta"}],"timestamp":"2022-02-10T12:21:58.797Z"}
+{"filename":"fnDAO.js","funcName":"get_viable_restaurants","level":"info","message":"get_available_restaurants","timestamp":"2022-02-10T12:21:58.800Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.800Z"}
+{"filename":"fnDAO.js","funcName":"get_viable_restaurants","level":"info","message":"get_available_restaurants","timestamp":"2022-02-10T12:21:58.800Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.800Z"}
+{"filename":"fnDAO.js","funcName":"get_viable_restaurants","level":"info","message":"get_available_restaurants","timestamp":"2022-02-10T12:21:58.800Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.801Z"}
+{"filename":"fnDAO.js","funcName":"get_viable_restaurants","level":"info","message":"get_available_restaurants","timestamp":"2022-02-10T12:21:58.801Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.812Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"info","message":[],"timestamp":"2022-02-10T12:21:58.813Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"info","message":"get_available_restaurants","timestamp":"2022-02-10T12:21:58.814Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.815Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"info","message":[{"capacity":"Lardo","id":1},{"capacity":"Panaderia Rosetta","id":2},{"capacity":"Tetetlan","id":3}],"timestamp":"2022-02-10T12:21:58.815Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"info","message":"get_available_tables","timestamp":"2022-02-10T12:21:58.817Z"}
+{"filename":"fnDAO.js","funcName":"get_available_tables","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.817Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"info","message":"get_available_tables","timestamp":"2022-02-10T12:21:58.817Z"}
+{"filename":"fnDAO.js","funcName":"get_available_tables","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.817Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"info","message":"get_available_tables","timestamp":"2022-02-10T12:21:58.818Z"}
+{"filename":"fnDAO.js","funcName":"get_available_tables","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.819Z"}
+{"filename":"fnDAO.js","funcName":"get_available_tables","level":"info","message":[],"timestamp":"2022-02-10T12:21:58.820Z"}
+{"filename":"fnDAO.js","funcName":"get_available_tables","level":"info","message":"get_available_tables","timestamp":"2022-02-10T12:21:58.820Z"}
+{"filename":"fnDAO.js","funcName":"get_available_tables","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.822Z"}
+{"filename":"fnDAO.js","funcName":"get_available_tables","level":"info","message":[{"capacity":6,"id":7},{"capacity":4,"id":5},{"capacity":4,"id":6},{"capacity":2,"id":1},{"capacity":2,"id":2},{"capacity":2,"id":3},{"capacity":2,"id":4}],"timestamp":"2022-02-10T12:21:58.822Z"}
+{"filename":"fnDAO.js","funcName":"get_available_tables","level":"info","message":"get_diner_reservations","timestamp":"2022-02-10T12:21:58.824Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.824Z"}
+{"filename":"fnDAO.js","funcName":"get_available_tables","level":"info","message":"get_diner_reservations","timestamp":"2022-02-10T12:21:58.825Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.825Z"}
+{"filename":"fnDAO.js","funcName":"get_available_tables","level":"info","message":"get_diner_reservations","timestamp":"2022-02-10T12:21:58.826Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.827Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"info","message":[],"timestamp":"2022-02-10T12:21:58.827Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"info","message":"get_diner_reservations","timestamp":"2022-02-10T12:21:58.828Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.829Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"info","message":[{"diner_id":1,"end_time":"2022-02-11T04:30:00.000Z","id":158,"rv_id":74,"start_time":"2022-02-11T02:30:00.000Z","ts_cancelled":null,"ts_created":"2022-02-10T12:21:58.705Z"},{"diner_id":2,"end_time":"2022-02-11T04:30:00.000Z","id":159,"rv_id":74,"start_time":"2022-02-11T02:30:00.000Z","ts_cancelled":null,"ts_created":"2022-02-10T12:21:58.705Z"},{"diner_id":3,"end_time":"2022-02-11T04:30:00.000Z","id":160,"rv_id":74,"start_time":"2022-02-11T02:30:00.000Z","ts_cancelled":null,"ts_created":"2022-02-10T12:21:58.705Z"}],"timestamp":"2022-02-10T12:21:58.830Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"info","message":"get_diner_reservations","timestamp":"2022-02-10T12:21:58.830Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.831Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"info","message":[],"timestamp":"2022-02-10T12:21:58.831Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"info","message":"del_reservation","timestamp":"2022-02-10T12:21:58.833Z"}
+{"filename":"fnDAO.js","funcName":"del_reservation","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T12:21:58.833Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"info","message":"del_reservation","timestamp":"2022-02-10T12:21:58.834Z"}
+{"filename":"fnDAO.js","funcName":"del_reservation -> del_reserve","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.835Z"}
+{"filename":"fnDAO.js","funcName":"del_reservation -> del_reserve","level":"info","message":[],"timestamp":"2022-02-10T12:21:58.835Z"}
+{"filename":"fnDAO.js","funcName":"del_reservation -> del_reserved_tables","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.836Z"}
+{"filename":"fnDAO.js","funcName":"del_reservation -> del_reserved_tables","level":"info","message":[],"timestamp":"2022-02-10T12:21:58.836Z"}
+{"filename":"fnDAO.js","funcName":"del_reservation -> del_party","level":"info","message":"query successful","timestamp":"2022-02-10T12:21:58.837Z"}
+{"filename":"fnDAO.js","funcName":"del_reservation -> del_party","level":"info","message":[],"timestamp":"2022-02-10T12:21:58.837Z"}
