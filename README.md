@@ -7,5 +7,7 @@ Three endpoints:
  - Cancel(reservation_id: int)
 
  GetViableRestaurants - Returns list of all restaurants that cater to the group's dietary restrictions and has seating
+ 
  Reserve - Returns the reservation ID. Checks beforehand that no one in the group is double-booked
+ 
  Cancel  - Checks if the current reservation ID exists. If so, then cancels the reservation
