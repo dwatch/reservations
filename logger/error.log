@@ -1,0 +1,15 @@
+{"filename":"fnDAO.js","funcName":"post_reservation","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:52.902Z"}
+{"filename":"fnDAO.js","funcName":"post_reservation","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:52.906Z"}
+{"filename":"fnDAO.js","funcName":"post_reservation","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:52.907Z"}
+{"filename":"fnDAO.js","funcName":"find_reservation","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:53.051Z"}
+{"filename":"fnDAO.js","funcName":"get_dietary_restrictions","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:53.055Z"}
+{"filename":"fnDAO.js","funcName":"get_viable_restaurants","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:53.064Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:53.072Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:53.072Z"}
+{"filename":"fnDAO.js","funcName":"get_available_restaurants","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:53.072Z"}
+{"filename":"fnDAO.js","funcName":"get_available_tables","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:53.083Z"}
+{"filename":"fnDAO.js","funcName":"get_available_tables","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:53.084Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:53.092Z"}
+{"filename":"fnDAO.js","funcName":"get_diner_reservations","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:53.093Z"}
+{"filename":"fnDAO.js","funcName":"del_reservation","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:40:53.105Z"}
+{"filename":"reserve.controller.js","funcName":"GetViableRestaurants","level":"error","message":"ill-defined parameters","timestamp":"2022-02-10T09:48:33.308Z"}
