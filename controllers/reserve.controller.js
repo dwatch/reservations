@@ -1,10 +1,10 @@
+require('dotenv').config()
 const reserveDAO = require('./fnDAO.js')
 const args = require('../helpers/args.helper.js')
 const lib = require('../helpers/reserve.helper.js')
 
 class ReserveController {  
   static #PK = "id"
-  static #CANCEL_DT = "ts_cancelled"
   
   static async GetViableRestaurants(req, res) {
     //Logging
@@ -91,7 +91,7 @@ class ReserveController {
     let existing = await reserveDAO.find_reservation(reservation_id)
     if (!existing) {
       return res.json({"error":"Reservation not found"})
-    } else if (existing[this.#CANCEL_DT]) {
+    } else if (existing[process.env.CANCEL_DT]) {
       return res.json({"message":"Reservation already cancelled"})
     }
     //Delete the reservation if it exists and not already cancelled

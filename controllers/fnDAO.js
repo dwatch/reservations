@@ -71,6 +71,26 @@ class reserveDAO {
     }
   }
 
+  static async run_concur_query(query_list, query_args, fn_name) {
+    let json_params = this.#base_meta
+    json_params['funcName'] = fn_name
+    try {
+      await db.query("BEGIN")
+      for (let i = 0; i < query_list.length; i++) {
+        logger.debug(query_list[i])
+        await db.query(query_list[i], query_args[i])
+      }
+      await db.query('COMMIT')
+      logger.info('query successful', json_params)
+      return []
+    } catch (e) {
+      logger.error('query failed', json_params)
+      logger.error(e, json_params)
+      await db.query('ROLLBACK')
+      return null
+    }
+  }
+
   static async find_reservation(reserve_id) {
     logger.info('find_reservation', this.#base_meta)
     if (!args.isNum(reserve_id)) { 
@@ -163,7 +183,6 @@ class reserveDAO {
     return (table_query && diner_query) ? rv_id[0]['id'] : null
   }
 
-  //TODO - What if it crashes halfway through these queries?
   static async del_reservation(reserve_id) {
     logger.info('del_reservation', this.#base_meta)
     if(!args.isNum(reserve_id)) { 
@@ -171,16 +190,11 @@ class reserveDAO {
       return null 
     }
     let params = [new Date(), reserve_id]
-    let del_reserve = await this.run_query(this.#queries["del_reserve"], params, 
-                                              'del_reservation -> del_reserve')
-    let del_rv_table = await this.run_query(this.#queries['del_reserved_tables'], [reserve_id], 
-                                              'del_reservation -> del_reserved_tables')
-    let del_party = await this.run_query(this.#queries['del_party'], [reserve_id], 
-                                              'del_reservation -> del_party')
-    if (del_reserve && del_party && del_rv_table) {
-      return true
-    }
-    return null
+    const queries = [this.#queries["del_reserve"], this.#queries['del_reserved_tables'], this.#queries['del_party']]
+    const query_params = [params, [reserve_id], [reserve_id]]
+    let results = await this.run_concur_query(queries, query_params, "del_reservation")
+    logger.info(results)
+    return (results) ? true : null
   }
 }
 
